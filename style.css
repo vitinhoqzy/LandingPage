@@ -19,7 +19,7 @@ body {
     background: var(--cor-principal);
 }
 
-.cabecalho {
+.content {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -115,20 +115,10 @@ body {
   margin-bottom: 16px;
 }
 
-.conteudo-secundario-paragrafo {
+.secundary-content  {
   font-family: 'Sarala', sans-serif;
   font-weight: 300;
   font-size: 18px;
   color: #ECD6C4;
 }
 
-.rodape {
-    padding: 32px;
-    border-top: 0.4px solid #FFF2E7;
-}
-
-.rodape-imagem {
-  height: 48px;
-  display: block;
-  margin: 0 auto;
-}
