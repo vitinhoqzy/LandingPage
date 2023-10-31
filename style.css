@@ -62,7 +62,7 @@ body {
 }
 
 .conteudo-principal-escrito-titulo {
-  font-family: 'Righteous', cursive;
+  font-family: var(--fonte-principal)
   font-weight: 400;
   font-size: 64px;
   color: #FFF2E7;
@@ -93,7 +93,7 @@ body {
 }
 
 .conteudo-principal-imagem {
-  height: 430px;
+  height: 350px;
 }
 
 .conteudo-secundario {
