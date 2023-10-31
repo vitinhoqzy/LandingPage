@@ -16,7 +16,7 @@
 body {
   font-size: 100%;
   background: rgb(2,0,31);
-    background: var(--cor-principal);
+  background: var(--cor-principal);
 }
 
 .header {
@@ -25,6 +25,12 @@ body {
   align-items: center;
   justify-content: space-around;
   padding: 24px;
+}
+
+.header-img{
+ height: 70px;
+ 
+
 }
 
 .content-img {
