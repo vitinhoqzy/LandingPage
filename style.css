@@ -19,7 +19,7 @@ body {
     background: var(--cor-principal);
 }
 
-.content {
+.header {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -27,55 +27,55 @@ body {
   padding: 24px;
 }
 
-.cabecalho-imagem {
+.content-img {
   height: 72px;
 }
 
-.cabecalho-menu {
+.content-menu {
   display: flex;
   gap: 32px;
 }
 
-.cabecalho-menu-item {
+.content-menu-item {
   font-family: 'Sarala', sans-serif;
   color: #FFF2E7;
   font-weight: 400;
   font-size: 18px
 }
 
-.conteudo {
+.content {
   margin-bottom: 48px;
   border-top: 0.4px solid #FFF2E7;
 }
 
-.conteudo-principal {
+.main-content {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
 }
 
-.conteudo-principal-escrito {
+.main-content-text {
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
 
-.conteudo-principal-escrito-titulo {
-  font-family: var(--fonte-principal)
+.main_content-title {
+  font-family: var(--fonte-principal);
   font-weight: 400;
   font-size: 64px;
   color: #FFF2E7;
 }
 
-.conteudo-principal-escrito-subtitulo {
+.main_content-subtitle {
   font-family: 'Sarala', sans-serif;
   font-weight: 400;
   font-size: 24px;
   color: #ECD6C4;
 }
 
-.conteudo-principal-escrito-botao {
+.main_content-bottom {
   background-color: #ECD6C4;
   width: 180px;
   height: 60px;
@@ -88,16 +88,16 @@ body {
   color: #2F2325;
 }
 
-.conteudo-principal-escrito-botao:hover {
+.main-content-bottom:hover {
   background-color: rgba(236, 214, 196, 0.53);
 }
 
-.conteudo-principal-imagem {
+.main-content-img {
   height: 350px;
   padding-top: 10px;
 }
 
-.conteudo-secundario {
+.secondary-content  {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -105,7 +105,7 @@ body {
   margin-top: 48px;
 }
 
-.conteudo-secundario-titulo {
+.secondary-content-title de {
   border-top: 0.4px solid #FFF2E7;
   padding-top: 48px;
   font-family: 'Righteous', cursive;
@@ -115,7 +115,7 @@ body {
   margin-bottom: 16px;
 }
 
-.secundary-content  {
+.secundary-content-paragraph  {
   font-family: 'Sarala', sans-serif;
   font-weight: 300;
   font-size: 18px;
