@@ -29,7 +29,7 @@ body {
 
 .header-img{
  height: 70px;
- 
+ padding-right: 950px;
 
 }
 
@@ -67,14 +67,14 @@ body {
   gap: 32px;
 }
 
-.main_content-title {
+.main-content-title {
   font-family: var(--fonte-principal);
   font-weight: 400;
   font-size: 64px;
   color: var(--cor-secundaria);
 }
 
-.main_content-subtitle {
+.main-content-subtitle {
   font-family: var(--fonte-principal);
   font-weight: 400;
   font-size: 24px;
@@ -82,7 +82,7 @@ body {
 }
 
 .main_content-bottom {
-  background-color: var(--cor-secundaria);
+  background-color: #ECD6C4;
   width: 180px;
   height: 60px;
   border: none;
@@ -99,7 +99,7 @@ body {
 }
 
 .main-content-img {
-  height: 350px;
+  height: 300px;
   padding-top: 10px;
 }
 
@@ -121,7 +121,7 @@ body {
   margin-bottom: 16px;
 }
 
-.secundary-content-paragraph  {
+.secundary-content-paragraph {
   font-family: var(--fonte-principal);
   font-weight: 300;
   font-size: 18px;
