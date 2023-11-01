@@ -150,3 +150,7 @@ body {
   color: #FFFBF5;
 }
 
+.secondary-content-bottom:hover {
+  opacity: 60%;
+}
+
