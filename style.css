@@ -3,8 +3,8 @@
 
 :root{
     --fonte-principal : 'Poppins', sans-serif;
-    --cor-principal : linear-gradient(90deg, rgba(2,0,31,1) 0%, rgba(6,0,104,1) 49%, rgba(7,0,112,1) 75%, rgba(4,0,52,1) 100%, rgba(255,255,255,1) 100%);
-    --cor-secundaria : #FFFBF5;
+    --cor-secundaria : linear-gradient(90deg, rgba(2,0,31,1) 0%, rgba(6,0,104,1) 49%, rgba(7,0,112,1) 75%, rgba(4,0,52,1) 100%, rgba(255,255,255,1) 100%);
+    --cor-principal : #FFFBF5;
 }
 * {
   margin: 0;
