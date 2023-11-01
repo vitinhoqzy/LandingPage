@@ -94,7 +94,7 @@ body {
 }
 
 .main-content-bottom:hover {
-  background-color: rgba(236, 214, 196, 0.53);
+  opacity: 60%;
 }
 
 .main-content-img {
