@@ -93,6 +93,7 @@ body {
   font-weight: 400;
   font-size: 24px;
   color: var(--cor-principal);
+  cursor: pointer;
 }
 .main-content-bottom a  {
   text-decoration: none;
@@ -144,6 +145,7 @@ body {
   font-weight: 400;
   font-size: 24px;
   color: var(--cor-principal);
+  cursor: pointer;
 }
 .secondary-content-bottom a  {
   text-decoration: none;
