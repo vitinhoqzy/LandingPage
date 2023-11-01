@@ -6,6 +6,8 @@
     --cor-secundaria : #0C356A;
     --cor-principal : #FFFBF5;
 }
+
+
 * {
   margin: 0;
   padding: 0;
@@ -26,10 +28,10 @@ body {
   padding: 24px;
 }
 
-.header-img{
- height: 70px;
+.header-text {
  padding-right: 950px;
-
+ font-family: var(--fonte-principal);
+ color: var(--cor-secundaria);
 }
 
 .content-img {
@@ -68,8 +70,8 @@ body {
 
 .main-content-title {
   font-family: var(--fonte-principal);
-  font-weight: 400;
-  font-size: 64px;
+  font-weight: 300;
+  font-size: 30px;
   color: var(--cor-secundaria);
 }
 
