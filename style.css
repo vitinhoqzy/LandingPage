@@ -4,7 +4,7 @@
 :root{
     --fonte-principal : 'Poppins', sans-serif;
     --cor-principal : linear-gradient(90deg, rgba(2,0,31,1) 0%, rgba(6,0,104,1) 49%, rgba(7,0,112,1) 75%, rgba(4,0,52,1) 100%, rgba(255,255,255,1) 100%);
-
+    --cor-secundaria : #FFFBF5;
 }
 * {
   margin: 0;
@@ -44,14 +44,14 @@ body {
 
 .content-menu-item {
   font-family: var(--fonte-principal);
-  color: #FFF2E7;
+  color: var(--cor-secundaria);
   font-weight: 400;
   font-size: 18px
 }
 
 .content {
   margin-bottom: 48px;
-  border-top: 0.4px solid #FFF2E7;
+  border-top: 0.4px solid var(--cor-secundaria);
 }
 
 .main-content {
@@ -71,17 +71,17 @@ body {
   font-family: var(--fonte-principal);
   font-weight: 400;
   font-size: 64px;
-  color: #FFF2E7;
+  color: var(--cor-secundaria);
 }
 
 .main-content-subtitle {
   font-family: var(--fonte-principal);
   font-weight: 400;
   font-size: 24px;
-  color: #ECD6C4;
+  color: var(--cor-secundaria);
 }
 
-.main-content-bottom {
+.main_content-bottom {
   background-color: #ECD6C4;
   width: 180px;
   height: 60px;
@@ -91,7 +91,7 @@ body {
   font-family: var(--fonte-principal);
   font-weight: 400;
   font-size: 24px;
-  color: #2F2325;
+  color: var(--cor-principal);
 }
 
 .main-content-bottom:hover {
@@ -112,12 +112,12 @@ body {
 }
 
 .secondary-content-title de {
-  border-top: 0.4px solid #FFF2E7;
+  border-top: 0.4px solid var(--cor-secundaria);
   padding-top: 48px;
   font-family: var(--fonte-principal);
   font-weight: 400;
   font-size: 24px;
-  color: #FFF2EF;
+  color: var(--cor-secundaria);
   margin-bottom: 16px;
 }
 
@@ -125,6 +125,6 @@ body {
   font-family: var(--fonte-principal);
   font-weight: 300;
   font-size: 18px;
-  color: #ECD6C4;
+  color: var(--cor-secundaria);
 }
 
