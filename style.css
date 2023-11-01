@@ -3,7 +3,7 @@
 
 :root{
     --fonte-principal : 'Poppins', sans-serif;
-    --cor-secundaria : #0C356A;
+    --cor-secundaria : #03001C;
     --cor-principal : #FFFBF5;
 }
 
@@ -82,7 +82,7 @@ body {
   color: var(--cor-secundaria);
 }
 
-.main-content-bottom {
+.main-content-bottom  {
   background-color: var(--cor-secundaria);
   width: 180px;
   height: 60px;
@@ -93,6 +93,10 @@ body {
   font-weight: 400;
   font-size: 24px;
   color: var(--cor-principal);
+}
+.main-content-bottom a  {
+  text-decoration: none;
+  color: #FFFBF5;
 }
 
 .main-content-bottom:hover {
